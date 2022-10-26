@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+    background-image: url(backgroundimg.jpeg);
+    background-size: cover;
+}
+
+.card{
+    background: #000000d0;
+    color:white;
+    padding:32px;
+    border-radius: 25px;
+    width: 100%;
+    max-width:500px;
+    margin:16px;
+
+}
+.search{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+.search-btn{
+    border-radius: 18px;
+    border:none;
+    outline:none;
+    height: 26px;
+    background-color: rgb(79, 73, 73);
+    margin-left: 10px;
+}
+.search-bar{
+   
+    border-radius: 18px;
+    border:none;
+    outline:none;
+    height:26px;
+    font-size: 20px;
+    text-indent: 15px;
+    background-color: rgb(79, 73, 73);
+    color: white;
+}
+.weather{
+    font-size: 20px;
+}
